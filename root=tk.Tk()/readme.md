@@ -13,7 +13,7 @@ import tkinter as tk
 root=tk.Tk()
 ```
 
-## - Câu lệnh này sẽ làm ăn được gì? Nó sẽ làm được các việc sau :
+### - Câu lệnh này sẽ làm ăn được gì? Nó sẽ làm được các việc sau :
 
 #### 1. Khởi tạo một phiên.
 
@@ -21,7 +21,7 @@ root=tk.Tk()
 
 #### 3. Bắt đầu vòng lặp sự kiện (event loop).
 
-### - Nhìn sơ đồ sau để dễ hình dung :
+#### - Nhìn sơ đồ sau để dễ hình dung :
 
 ```text
 ╔══════════════════════╗
@@ -33,9 +33,9 @@ root=tk.Tk()
 ╚══════════════════════╝
 ```
 
-### - Vì đây nó giống như xương sườn của một con người cho nên nếu thiếu sẽ dẫn đến lỗi TclError hoặc không hiển thị như ý muốn khi sử dụng các widget :)))
+#### - Vì đây nó giống như xương sườn của một con người cho nên nếu thiếu sẽ dẫn đến lỗi TclError hoặc không hiển thị như ý muốn khi sử dụng các widget :)))
 
-### - Không nên tạo 2 root windows. Cái này là kinh nghiệm riêng của mình còn bạn nào xem mà không nghe thì kệ mẹ bạn :))
+#### - Không nên tạo 2 root windows. Cái này là kinh nghiệm riêng của mình còn bạn nào xem mà không nghe thì kệ mẹ bạn :))
 
 # 3. Vậy root còn có thể làm trò mèo gì nữa?
 
