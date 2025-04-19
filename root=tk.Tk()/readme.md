@@ -50,3 +50,50 @@ root=tk.Tk()
 |`root.resizable("x, y")`|Cho phép resize|
 |`root.configure(bg="...")`|Đổi màu nền|
 |`root.iconbitmap("file.ico")`|Đổi ảnh cửa số|
+
+## 2. Xử lí vài event cơ bản :
+
+|Function|Tác dụng|
+|-|-|
+|`root.protocol("WM_DELETE_WINDOW,handler_func")`|Xử lí nút thoát|
+|`root.bind("<Key>")`|Tự trải nghiệm :)))|
+|`root.bind("<Button-1>")`|Tự trải nghiệm nốt|
+|`root.focus_set()`|Đặt cửa sổ mặc định|
+
+## 3. Lặp & timing :
+
+|Function|Tác dụng|
+|-|-|
+|`root.after(ms.func)`|Call function `func` sau `ms` milisec|
+|`root.update()`|Cập nhật giao diện ngay tức thì|
+|`root.mainloop()`|Bắt đầu vòng lặp GUI (bắt buộc)|
+
+## 4. Exit :
+
+|Function|Tác dụng|
+|-|-|
+|`root.quit()`|Thoát GUI loop (không destroy windows)|
+|`root.destroy()`|Exit luôn, gần gần return 0 trong C)|
+
+## 5. Thông tin & tiện ích :
+
+|Function|Tác dụng|
+|-|-|
+|`root.winfo_width()`|Lấy chiều rộng win hiện tại|
+|`root.winfo_height()`|Lấy chiều cao win hiện tại|
+|`root.winfo_screenwidth()`|Chiều rộng màn hình user|
+|`root.winfo_screenheight()`|Chiều cao màn hình user|
+|`root.winfo_children()`|DS widget con|
+
+
+# 4. Tóm lại chỉ cần học những cái sau là dc :
+
+- `root.title()`
+
+- `root.geometry()`
+
+- `root.configure()` (k chỉ để đổi màu :)))
+
+- `root.mainloop()`
+
+- `root.after()` (Trong một số điều kiện sẽ cần)
