@@ -47,9 +47,22 @@ label.config(text="ND")
 
 ### a> Mục đích :
 
-- 
+- Cho người dùng gõ một dòng văn bản như mật khẩu, câu lệnh, tên hoặc một trường nào đó
 
 ### b> Prompt :
+
+```python
+entry=tk.Entry(parent, options)
+entry.pack()
+```
+
+- Các tham số thường dùng : `width`, `show="*"`(dùng để ẩn mật khẩu,...) và `font`(phông chữ)
+
+- Ví dụ :
+```python
+entry=tk.Entry(root, width=30, show="*")
+entry.pack() 
+```
 
 ### c> Lưu ý quan trọng :
 
